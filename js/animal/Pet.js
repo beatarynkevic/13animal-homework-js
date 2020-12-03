@@ -5,9 +5,11 @@ class Pet extends Animal {
         super(name, color);
 
         this.legsCount = 4;
-        this.likePlaying = true;
+        this.likePlaying = 'megsta zaisti';
     }
-
+    walk() {
+        console.log(`${this.name} turi ${this.legsCount} kojas ir ${this.likePlaying}`);
+    }
 }
 
 export { Pet }
