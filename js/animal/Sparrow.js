@@ -6,6 +6,7 @@ class Sparrow extends Bird {
 
         this.birdType = 'Spanish sparrow';
         this.voice = 'bird chirping 🐦';
+        this.canFly = true;
     }
     repeatSound() {
         console.log(`${this.name} the ${this.birdType}`);

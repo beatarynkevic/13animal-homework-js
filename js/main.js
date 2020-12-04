@@ -22,6 +22,9 @@ suo.introduce();
 suo.sound();
 suo.walk();
 
+suo.color = 'raudonas';
+console.log(suo.color);
+
 katinas.introduce();
 katinas.sound();
 katinas.walk();
@@ -32,15 +35,16 @@ zuikis.walk();
 
 papuga.introduce();
 papuga.sound();
-papuga.repeatSound();
+papuga.repeatSound('Kukaracia');
+papuga.fly();
 
 vista.introduce();
 vista.sound();
-vista.repeatSound();
+vista.fly();
 
 zvirblis.introduce();
 zvirblis.sound();
-zvirblis.repeatSound();
+zvirblis.fly();
 
 auksine.introduce();
 auksine.swim();

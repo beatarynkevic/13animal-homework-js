@@ -6,9 +6,10 @@ class Parrot extends Bird {
 
         this.birdType = 'Macaw';
         this.voice = 'I will repeat what you will say 🦜';
+        this.canFly = true;
     }
-    repeatSound() {
-        console.log(`${this.name} the ${this.birdType}`);
+    repeatSound(sound) {
+        console.log(`${this.name} repeats your sound: ${sound}`);
     }
 }
 

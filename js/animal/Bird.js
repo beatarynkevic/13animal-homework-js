@@ -6,10 +6,10 @@ class Bird extends Animal {
 
         this.wingsCount = 2;
         this.newSpeed = 0;
+        this.canFly = false;
     }
-    fly(speed) {
-        this.newSpeed += speed;
-        console.log(this.name, '->', this.speed);
+    fly() {
+        console.log(`${this.name}: ${this.canFly ? 'Flies away' : 'ooops ..I can not fly'}`);
     }
 }
 
